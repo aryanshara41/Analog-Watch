@@ -112,21 +112,3 @@ setInterval(() => {
     i += 1;
     i %= 60;
 }, 1000);
-
-
-
-
-// const canva = document.getElementById("canvas");
-
-// if( canva.getContext ){
-//     var ele = canva.getContext("2d");
-//     let x = canva.width/2;
-//     let y = canva.height/2;
-//     ele.beginPath();
-//     ele.moveTo(x,y);
-//     ele.lineTo(x+10, y-5 );
-//     ele.lineTo(x+50,y);
-//     ele.lineTo(x+10,y+5);
-//     ele.closePath();
-//     ele.stroke();
-// }
