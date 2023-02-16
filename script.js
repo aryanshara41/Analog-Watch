@@ -3,6 +3,8 @@ setInterval(() => {
     document.body.innerHTML = "";
     var child = document.createElement("canvas");
     child.setAttribute("id", "canvas");
+    child.height = 200;
+    child.width = 200;
     var ctx = child.getContext("2d");
 
     let x = child.width / 2;
